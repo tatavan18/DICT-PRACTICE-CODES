@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Exercise: Multiplication Table</title>
+    <style>
+      table {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        border-collapse: collapse;
+      }
+
+      th, td {
+        border: 1px solid black;
+        padding: 5px;
+        text-align: center;
+      }
+
+      th:first-child, td:first-child {
+        background-color: lightgray;
+      }
+
+      input[type="number"] {
+        width: 75%;
+		text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Multiplication Table</h1>
+    <p>Fill in the missing numbers in the multiplication table below:</p>
+   
+    <form action="/Multiplication_Window.html">
+      <table width="200%">
+        <tr>
+          <th></th>
+          <th>1</th>
+          <th>2</th>
+          <th>3</th>
+        </tr>
+        <tr>
+          <th>1</th>
+          <td>1</td>
+          <td>2</td>
+          <td>3</td>
+        </tr>
+        <tr>
+          <th>2</th>
+          <td>2</td>
+		  <td><input type="number" id="answer1" name="answer1"></td>
+          <td>6</td>
+        </tr>
+        <tr>
+          <th>3</th>
+          <td>3</td>
+          <td>6</td>
+		  <td><input type="number" id="answer2" name="answer2"></td>
+        </tr>
+      </table> <br>
+     
+	 <input type="submit" value="Submit">
+	 
+    </form>
+  </body>
+</html>

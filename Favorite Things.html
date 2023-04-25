@@ -1,0 +1,60 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+	<title>Favorite Things</title>
+	</head>
+	<body>
+	
+	<h1>My Favorite Things</h1>
+
+	<form action="/action_page.php">
+		<h2>Books I've read</h2>
+		<ul>
+			<li>
+				<input type="checkbox" id="book1" name="book1" value="The Lord of the Rings">
+				<label for="book1">The Lord of the Rings</label>
+			</li>
+			<li>
+				<input type="checkbox" id="book2" name="book2" value="To Kill a Mockingbird">
+				<label for="book2">To Kill a Mockingbird</label>
+			</li>
+			<li>
+				<input type="checkbox" id="book3" name="book3" value="The Great Gatsby">
+				<label for="book3">The Great Gatsby</label>
+			</li>
+		</ul>
+		
+		<h2>Movies Ratings</h2>
+		<ul>
+			<li>
+				<label for="movie1">The Shawshank Redemption:</label>
+				<input type="range" id="movie1" name="movie1" min="1" max="10">
+			</li>
+			<li>
+				<label for="movie2">The Godfather:</label>
+				<input type="range" id="movie2" name="movie2" min="1" max="10">
+			</li>
+			<li>
+				<label for="movie3">Pulp Fiction:</label>
+				<input type="range" id="movie3" name="movie3" min="1" max="10">
+			</li>
+		</ul>
+		
+		<h2>Best Music</h2>
+		<ol>
+			<li>
+				<input type="radio" id="music1" name="bestmusic" value="The Beatles"><label for="music1">The Beatles</label>
+			</li>
+			<li>
+				<input type="radio" id="music2" name="bestmusic" value="Bob Dylan"><label for="music2">Bob Dylan</label>
+			</li>
+			<li>
+				<input type="radio" id="music3" name="bestmusic" value="Johnny Cash"><label for="music3">Johnny Cash</label>
+			</li>
+		</ol>
+		
+	</form> 
+	
+</body>
+
+</html>
